@@ -1,0 +1,13 @@
+[26-Jan-2018 07:24:18 UTC] PHP Warning:  sprintf(): Too few arguments in /home/doublzmw/public_html/wp-admin/includes/class-bulk-upgrader-skin.php on line 150
+[26-Jan-2018 07:24:21 UTC] PHP Warning:  sprintf(): Too few arguments in /home/doublzmw/public_html/wp-admin/includes/class-bulk-upgrader-skin.php on line 150
+[26-Jan-2018 07:24:24 UTC] PHP Warning:  sprintf(): Too few arguments in /home/doublzmw/public_html/wp-admin/includes/class-bulk-upgrader-skin.php on line 150
+[26-Jan-2018 07:24:26 UTC] PHP Warning:  sprintf(): Too few arguments in /home/doublzmw/public_html/wp-admin/includes/class-bulk-upgrader-skin.php on line 150
+[26-Jan-2018 07:24:30 UTC] PHP Warning:  sprintf(): Too few arguments in /home/doublzmw/public_html/wp-admin/includes/class-bulk-upgrader-skin.php on line 150
+[26-Jan-2018 07:24:40 UTC] PHP Warning:  sprintf(): Too few arguments in /home/doublzmw/public_html/wp-admin/includes/class-bulk-upgrader-skin.php on line 150
+[26-Jan-2018 07:24:46 UTC] PHP Warning:  sprintf(): Too few arguments in /home/doublzmw/public_html/wp-admin/includes/class-bulk-upgrader-skin.php on line 150
+[26-Jan-2018 07:24:49 UTC] PHP Warning:  sprintf(): Too few arguments in /home/doublzmw/public_html/wp-admin/includes/class-bulk-upgrader-skin.php on line 150
+[26-Jan-2018 07:24:53 UTC] PHP Warning:  sprintf(): Too few arguments in /home/doublzmw/public_html/wp-admin/includes/class-bulk-upgrader-skin.php on line 150
+[26-Jan-2018 07:24:56 UTC] PHP Warning:  sprintf(): Too few arguments in /home/doublzmw/public_html/wp-admin/includes/class-bulk-upgrader-skin.php on line 150
+[26-Jan-2018 07:25:00 UTC] PHP Warning:  sprintf(): Too few arguments in /home/doublzmw/public_html/wp-admin/includes/class-bulk-upgrader-skin.php on line 150
+[18-Feb-2018 09:36:39 UTC] The woocommerce_get_product_schema function is deprecated since version 3.0.
+[18-Feb-2018 09:36:39 UTC] The WC_Product::get_dimensions argument is deprecated since version 3.0. By default, get_dimensions has an argument set to true so that HTML is returned. This is to support the legacy version of the method. To get HTML dimensions, instead use wc_format_dimensions() function. Pass false to this method to return an array of dimensions. This will be the new default behavior in future versions.

@@ -1,0 +1,114 @@
+// Variables
+@theme-image-path: '../images/';
+@theme-font-path :'../fonts/';
+
+// Theme Margin, Padding
+@theme-margin: 	15px;
+@theme-padding: 15px;
+
+// Theme Basic Font
+@bodyfont: "Poppins", Arial, Helvetica, sans-serif;
+@headingfont: "Poppins", Arial, Helvetica, sans-serif;
+@subheadingfont: "Poppins", Arial, Helvetica, sans-serif;
+@menufont: "Poppins", Arial, Helvetica, sans-serif;
+@productname: "Poppins", Arial, Helvetica, sans-serif;
+@postmetafont: "Poppins", Arial, Helvetica, sans-serif;
+
+// Theme Basic Colors
+@bodybackground: #FFFFFF;
+@border-color: #dddddd;
+@headerbg: #FFFFFF;
+@headercolor: #444444;
+@mainnavbg: #fbfbfb;
+@text-color: #666666;
+@linkcolor: #eeb013;
+@headingcolor: #333333;
+@mainnavcolor: #333333;
+
+@primarycolor: #eeb013;
+@salecolor: #f69b0d;
+@newcolor: #eeb013;
+@newtextcolor: #ffffff;
+@saletextcolor: #ffffff;
+@ratecolor: #f69b0d;
+
+@scheme: #000000;
+@yellow: #fed424;
+@black: #000;
+@white: #fff;
+@grey: #ccc;
+@greycolor: #909295;
+@lightgreycolor: #bababa;
+@blue: #009eca;
+@green: #38cc00;
+@red: #e74c3c;
+@dark: #333;
+@light: #ddd;
+@orange: #f6ba70;
+@lightblue: #58c5c0;
+@darkblue: #42555c;
+
+//Extend color
+@bright_yellow: #eed845;
+@bright_blue: #6dd6d6;
+@bright_pink: #e9838a;
+@bright_orange: #ffb268;
+
+@footerbg: #222;
+@footerborder: #393939;
+@footercolor: #646464;
+@footertitle: #fff;
+
+//Woocommerce
+@saletextcolor: #ffffff;
+@salecolor: #ef7c3d;
+@ratecolor: #de4c4a;
+
+@title-color: #444;
+@descript-color: #999;
+@color-menu-level-1 : #fff;
+@color-menu-dropdown : @text-color;
+@menu-color: #fff;
+@menu-color-hover : @linkcolor;
+
+@header-topbar-height: 50px;
+@header-topbar-color : #e0e0e0;
+@header-border-color : @dark;
+
+//Header
+// -------------------------
+@header-bg                  : transparent;
+@header-height              : 81px;
+
+// Topbar
+// -------------------------
+@topbar-bg:                 #FFFFFF;
+@topbar-padding:            10px 0;
+
+.rgba-bg-color (@color,  @x:0.6) {
+	background-color: rgba(red(@color), green(@color), blue(@color), @x);
+}
+
+.rounded(@radius: 2px) {
+	-webkit-border-radius: @radius;
+	-moz-border-radius: @radius;
+	border-radius: @radius;
+}
+
+.scale(@ratio:1.5) {
+	.transform(scale(@ratio));
+}
+.delay (@delay: 60ms) {
+	-webkit-transition-delay: @delay;
+	   -moz-transition-delay: @delay;
+	    -ms-transition-delay: @delay;
+	     -o-transition-delay: @delay;
+	        transition-delay: @delay;
+}
+.duration (@duration: 250ms) {
+	-webkit-transition-duration: @duration;
+	   -moz-transition-duration: @duration;
+	    -ms-transition-duration: @duration;
+	     -o-transition-duration: @duration;
+	        transition-duration: @duration;
+}

@@ -1,0 +1,21 @@
+/**
+ * Admin Main Style CSS
+ */
+.redux-main #redux-sticky{
+	overflow: hidden !important;
+}
+#redux-header{
+	overflow: hidden;
+}
+.updated.woocommerce-message,
+#redux-header .rAds,
+.redux-message,
+.redux-notice,
+.error.notice{
+	display: none !important;
+	visibility: hidden !important;
+	opacity: 0 !important;
+	left: -9999em !important;
+	width: 0 !important;
+	height: 0 !important;
+}

@@ -1,0 +1,940 @@
+# Copyright (C) 2014 the WordPress team
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: fatotheme 1.0.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tags/lanethemes\n"
+"POT-Creation-Date: 2017-06-15 19:46+0700\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-06-16 09:44+0700\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.0.2\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Language: fr\n"
+
+#: 404.php:16
+msgid "Please try one of the following pages"
+msgstr ""
+
+#: 404.php:16
+msgid "Homepage"
+msgstr ""
+
+#: archive.php:29
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: archive.php:31
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: archive.php:31
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: archive.php:33
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: archive.php:33
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: archive.php:35
+msgid "Archives"
+msgstr ""
+
+#: author.php:32
+msgid "Author Archives: %s"
+msgstr ""
+
+#: author.php:63 content.php:62
+msgid "About %s"
+msgstr ""
+
+#: category.php:21
+msgid "Category Archives: %s"
+msgstr ""
+
+#: comments.php:11
+msgid "Comment (0)"
+msgstr ""
+
+#: comments.php:11
+msgid "Comment (1)"
+msgstr ""
+
+#: comments.php:11
+msgid "Comments (%)"
+msgstr ""
+
+#: comments.php:25
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:26
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:30
+msgid "Not allow comments."
+msgstr ""
+
+#: comments.php:37
+msgid "Leave a Reply"
+msgstr ""
+
+#: comments.php:59
+msgid "Your email address will not be published. Required fields are marked *."
+msgstr ""
+
+#: comments.php:44
+msgid "Name (required)"
+msgstr ""
+
+#: comments.php:45
+msgid "Email (required)"
+msgstr ""
+
+#: comments.php:46
+msgid "Website"
+msgstr ""
+
+#: comments.php:50
+msgid "Comment"
+msgstr ""
+
+#: comments.php:50
+msgid "Comment..."
+msgstr ""
+
+#: comments.php:51
+msgid "Leave a comment"
+msgstr ""
+
+#: comments.php:54
+msgid "Logged in as %s. %sLog out &raquo;%s"
+msgstr ""
+
+#: comments.php:54
+msgid "Log out of this account"
+msgstr ""
+
+#: comments.php:58
+msgid "Post Comment"
+msgstr ""
+
+#: template-countdown.php:17
+msgid "This is the site under construction"
+msgstr ""
+
+#: template-countdown.php:18
+msgid "We are working one some improvements and will come back in"
+msgstr ""
+
+#: template-countdown.php:24
+msgid "Please choose date!"
+msgstr ""
+
+#: lib/widgets/product-upsell.php:5
+msgid "Lane Products Widget"
+msgstr ""
+
+#: lib/widgets/product-upsell.php:12
+msgid "Title"
+msgstr ""
+
+#: lib/widgets/product-upsell.php:17
+msgid "Name of Product Categories"
+msgstr ""
+
+#: lib/widgets/product-upsell.php:18
+msgid ""
+"Please insert name of product categories follow sample: Computer,Electronics,"
+"Phone. Go to Products->Categories on left sidebar for exactly of name."
+msgstr ""
+
+#: lib/widgets/product-upsell.php:33
+msgid "Product Type"
+msgstr ""
+
+#: lib/widgets/product-upsell.php:42
+msgid "Layout Type"
+msgstr ""
+
+#: lib/widgets/product-upsell.php:47
+msgid "Total Product"
+msgstr ""
+
+#: lib/widgets/product-upsell.php:52
+msgid "Number Product Visible"
+msgstr ""
+
+#: lib/widgets/product-upsell.php:58
+msgid ""
+"The amount of time to delay between automatically cycling an item. If false, "
+"carousel will not automatically cycle."
+msgstr ""
+
+#: lib/widgets/search-widget.php:5
+msgid "Lane Ajax Search widget"
+msgstr ""
+
+#: lib/widgets/lane-class-widget.php:33
+msgid "Custom class"
+msgstr ""
+
+#: lib/widgets/lane-class-widget.php:43
+msgid "Carousel type"
+msgstr ""
+
+#: lib/widgets/lane-class-widget.php:245
+msgid "Click to browse icon"
+msgstr ""
+
+#: lib/widgets/lane-class-widget.php:246
+msgid "Browse..."
+msgstr ""
+
+#: lib/widgets/lane-class-widget.php:269
+msgid "Click to browse image"
+msgstr ""
+
+#: lib/widgets/multiple_sidebars.php:72
+msgid "Sidebar"
+msgstr ""
+
+#: lib/widgets/multiple_sidebars.php:120
+msgid "Widget Section already exists, please use a different name."
+msgstr ""
+
+#: lib/widgets/multiple_sidebars.php:174
+msgid "No Widget Sections defined."
+msgstr ""
+
+#: lib/widgets/multiple_sidebars.php:178
+msgid "Sidebar does not exist."
+msgstr ""
+
+#: lib/widgets/multiple_sidebars.php:208
+msgid "Are you sure you want to remove"
+msgstr ""
+
+#: lib/widgets/multiple_sidebars.php:208
+msgid "This will remove any widgets you have assigned to this widget section."
+msgstr ""
+
+#: lib/widgets/multiple_sidebars.php:217
+msgid "Widget Section Name:"
+msgstr ""
+
+#: lib/widgets/multiple_sidebars.php:228
+msgid "Widget Sections"
+msgstr ""
+
+#: lib/widgets/multiple_sidebars.php:233
+msgid "Widget Section Name"
+msgstr ""
+
+#: lib/widgets/multiple_sidebars.php:234
+msgid "CSS Class"
+msgstr ""
+
+#: lib/widgets/multiple_sidebars.php:235
+msgid "Remove"
+msgstr ""
+
+#: lib/widgets/multiple_sidebars.php:247
+msgid "Remove this Widget Section"
+msgstr ""
+
+#: lib/widgets/multiple_sidebars.php:247
+msgid "remove"
+msgstr ""
+
+#: lib/widgets/multiple_sidebars.php:257
+msgid "Add New Widget Section"
+msgstr ""
+
+#: lib/widgets/multiple_sidebars.php:315
+msgid "Select Sidebar 1:"
+msgstr ""
+
+#: lib/widgets/multiple_sidebars.php:316
+msgid ""
+"Select sidebar 1 that will display on this page. Choose \"No Sidebar\" for "
+"full width."
+msgstr ""
+
+#: lib/widgets/multiple_sidebars.php:324
+msgid "WP Default Sidebar"
+msgstr ""
+
+#: lib/widgets/multiple_sidebars.php:329
+msgid "Blog Sidebar"
+msgstr ""
+
+#: lib/widgets/multiple_sidebars.php:330
+msgid "Default Sidebar"
+msgstr ""
+
+#: lib/widgets/multiple_sidebars.php:345
+msgid "No Sidebar"
+msgstr ""
+
+#: lib/widgets/multiple_sidebars.php:378
+msgid "Select Sidebar 2:"
+msgstr ""
+
+#: lib/widgets/multiple_sidebars.php:379
+msgid ""
+"Select sidebar 2 that will display on this page. Sidebar 2 can only be used "
+"if sidebar 1 is selected."
+msgstr ""
+
+#: lib/customize/controller.php:47
+msgid "Clear"
+msgstr ""
+
+#: lib/customize/front.php:44
+msgid "Select Color"
+msgstr ""
+
+#: lib/front/function.php:9
+msgid "Main Menu"
+msgstr ""
+
+#: lib/front/function.php:10
+msgid "Copyright Menu"
+msgstr ""
+
+#: lib/front/function.php:445
+msgid "My Account"
+msgstr ""
+
+#: lib/front/function.php:462
+msgid "Wishlist"
+msgstr ""
+
+#: lib/front/function.php:463
+msgid "My Wishlist"
+msgstr ""
+
+#: lib/front/function.php:469
+msgid "My Cart"
+msgstr ""
+
+#: lib/front/function.php:474
+msgid "Check Out"
+msgstr ""
+
+#: lib/front/function.php:481
+msgid "Logout"
+msgstr ""
+
+#: lib/front/function.php:487
+msgid "Login"
+msgstr ""
+
+#: lib/front/function.php:527
+msgid "Share this Post!"
+msgstr ""
+
+#: lib/front/function.php:555
+msgid "Currencies"
+msgstr ""
+
+#: lib/front/function.php:555
+msgid "Languages"
+msgstr ""
+
+#: lib/front/function.php:910
+msgid "Currency"
+msgstr ""
+
+#: lib/front/function.php:665
+msgid "Search..."
+msgstr ""
+
+#: lib/front/function.php:706
+msgid "Search product..."
+msgstr ""
+
+#: lib/front/function.php:746
+msgid "Shop Sidebar"
+msgstr ""
+
+#: lib/front/function.php:756
+msgid "Shop Single Sidebar"
+msgstr ""
+
+#: lib/front/function.php:776
+msgid "Visual Composer Sidebar"
+msgstr ""
+
+#: lib/front/function.php:786
+msgid "Footer 1"
+msgstr ""
+
+#: lib/front/function.php:797
+msgid "Footer 2"
+msgstr ""
+
+#: lib/front/function.php:805
+msgid "Footer 3"
+msgstr ""
+
+#: lib/front/function.php:814
+msgid "Footer 4"
+msgstr ""
+
+#: lib/front/function.php:823
+msgid "Footer 5"
+msgstr ""
+
+#: lib/front/function.php:832
+msgid "Footer 6"
+msgstr ""
+
+#: lib/includes/search-product-ajax-action.php:7
+msgid "Sorry, WooCommerce is not installed!"
+msgstr ""
+
+#: lib/includes/search-product-ajax-action.php:59
+msgid "Products not found. Please try again with different keywords."
+msgstr ""
+
+#: lib/includes/search-product-ajax-action.php:72
+msgid "Please fill keyword more than 2 chars to search"
+msgstr ""
+
+#: templates/header-global.php:33
+msgid "MENU"
+msgstr ""
+
+#: templates/header-4.php:52
+msgid "Call Us:"
+msgstr ""
+
+#: templates/header-4.php:76
+msgid "All Category"
+msgstr ""
+
+#: lib/includes/breadcrumb.php:25
+msgid "Home"
+msgstr ""
+
+#: templates/breadcrumb.php:6
+msgid "Blog"
+msgstr ""
+
+#: lib/includes/breadcrumb.php:95
+msgid "Archives for "
+msgstr ""
+
+#: lib/includes/breadcrumb.php:103
+msgid "Archives by: "
+msgstr ""
+
+#: lib/includes/breadcrumb.php:107
+msgid "Search results for"
+msgstr ""
+
+#: lib/includes/breadcrumb.php:111
+msgid "Page Not Found"
+msgstr ""
+
+#: lib/includes/breadcrumb.php:201
+msgid "Split"
+msgstr ""
+
+#: lib/includes/breadcrumb.php:204
+msgid "Merge"
+msgstr ""
+
+#: lib/includes/breadcrumb.php:207
+msgid "Edit"
+msgstr ""
+
+#: lib/lib.php:527
+msgid " seconds ago"
+msgstr ""
+
+#: lib/lib.php:533
+msgid " minutes ago"
+msgstr ""
+
+#: lib/lib.php:539
+msgid " hours ago"
+msgstr ""
+
+#: lib/lib.php:546
+msgid " days ago"
+msgstr ""
+
+#: lib/lib.php:549
+msgid " weeks ago"
+msgstr ""
+
+#: lib/lib.php:597
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: lib/lib.php:619
+msgid "Name *"
+msgstr ""
+
+#: lib/lib.php:624
+msgid "Email *"
+msgstr ""
+
+#: lib/lib.php:636
+msgid "Content *"
+msgstr ""
+
+#: lib/lib.php:642
+msgid "Your email address will not be published."
+msgstr ""
+
+#: lib/lib.php:647
+msgid "Leave a Comment"
+msgstr ""
+
+#: lib/lib.php:648
+msgid "Leave a Comment to %s"
+msgstr ""
+
+#: lib/lib.php:649
+msgid "Cancel reply"
+msgstr ""
+
+#: lib/lib.php:650
+msgid "Send Messages"
+msgstr ""
+
+#: lib/woocommerce/woocommerce.php:34
+msgid "View as:"
+msgstr ""
+
+#: lib/woocommerce/woocommerce.php:53
+msgid "List Layout"
+msgstr ""
+
+#: lib/woocommerce/woocommerce.php:54
+msgid "Grid Layout"
+msgstr ""
+
+#: lib/woocommerce/woocommerce.php:95
+msgid "Show:"
+msgstr ""
+
+#: lib/woocommerce/woocommerce.php:121
+msgid "Default"
+msgstr "Défaut"
+
+#: lib/woocommerce/woocommerce.php:125
+msgid "Date"
+msgstr "Daté"
+
+#: lib/woocommerce/woocommerce.php:129
+msgid "Price"
+msgstr "Prix"
+
+#: lib/woocommerce/woocommerce.php:132
+msgid "Popularity"
+msgstr "Popularité"
+
+#: lib/woocommerce/woocommerce.php:135
+msgid "Rating"
+msgstr "Classement"
+
+#: lib/woocommerce/woocommerce.php:138
+msgid "Name"
+msgstr "Nom"
+
+#: lib/woocommerce/woocommerce.php:150
+msgid "Sorting by %s"
+msgstr "Tri par %s"
+
+#: lib/woocommerce/woocommerce.php:155
+msgid "Default Sorting"
+msgstr "Tri par défaut"
+
+#: lib/woocommerce/woocommerce.php:158
+msgid "Sort by %s"
+msgstr "Tri par %s"
+
+#: lib/woocommerce/woocommerce.php:180
+msgid "Showing 1-%s Products"
+msgstr "Affichage des produits 1-%s"
+
+#: lib/woocommerce/woocommerce.php:210
+msgid "Quick view"
+msgstr "Affichage rapide"
+
+#: lib/woocommerce/woocommerce.php:268
+msgid "Availability"
+msgstr "Disponibilité"
+
+#: lib/woocommerce/woocommerce.php:363
+msgid "Add to wishlist"
+msgstr ""
+
+#: lib/woocommerce/woocommerce.php:368
+msgid "Add to compare"
+msgstr ""
+
+#: lib/woocommerce/woocommerce.php:374
+msgid "Mail to"
+msgstr ""
+
+#: lib/woocommerce/woocommerce.php:417
+msgid "Product New"
+msgstr ""
+
+#: lib/woocommerce/woocommerce.php:538
+msgid "Days"
+msgstr ""
+
+#: lib/woocommerce/woocommerce.php:539
+msgid "Months"
+msgstr ""
+
+#: lib/woocommerce/woocommerce.php:540
+msgid "Weeks"
+msgstr ""
+
+#: lib/woocommerce/woocommerce.php:541
+msgid "Years"
+msgstr ""
+
+#: lib/woocommerce/woocommerce.php:542
+msgid "Hrs"
+msgstr ""
+
+#: lib/woocommerce/woocommerce.php:543
+msgid "Secs"
+msgstr ""
+
+#: lib/woocommerce/woocommerce.php:544
+msgid "Day"
+msgstr ""
+
+#: lib/woocommerce/woocommerce.php:545
+msgid "Month"
+msgstr ""
+
+#: lib/woocommerce/woocommerce.php:546
+msgid "Week"
+msgstr ""
+
+#: lib/woocommerce/woocommerce.php:547
+msgid "Year"
+msgstr ""
+
+#: lib/woocommerce/woocommerce.php:548
+msgid "Hour"
+msgstr ""
+
+#: lib/woocommerce/woocommerce.php:549
+msgid "Minute"
+msgstr ""
+
+#: lib/woocommerce/woocommerce.php:550
+msgid "Second"
+msgstr ""
+
+#: searchform.php:4
+msgid "Search"
+msgstr ""
+
+#: templates/single/meta.php:32
+msgid "Posted by "
+msgstr ""
+
+#: templates/single/meta.php:32
+msgid "in "
+msgstr ""
+
+#: templates/single/meta.php:35
+msgid " Leave a comment"
+msgstr ""
+
+#: templates/single/meta.php:35
+msgid " 1 comment"
+msgstr ""
+
+#: templates/single/meta.php:35
+msgid " % comments"
+msgstr ""
+
+#: templates/blog/blog-visual.php:19
+msgid "By"
+msgstr ""
+
+#: templates/blog/blog-masonry.php:21
+msgid "by"
+msgstr ""
+
+#: templates/blog/blog-masonry.php:24
+msgid "in"
+msgstr ""
+
+#: templates/blog/blog-mini.php:22
+msgid "Read More"
+msgstr ""
+
+#: templates/blog/blog-list.php:37
+msgid "View Detail"
+msgstr ""
+
+#: templates/blog/blog-widget.php:14
+msgid " View(s)"
+msgstr ""
+
+#: templates/blog/blog-widget.php:34
+msgid "Continue Reading"
+msgstr ""
+
+#: templates/blog/blog.php:12
+msgid "Sticky"
+msgstr ""
+
+#: templates/blog/blog.php:20
+msgid "Read More >>"
+msgstr ""
+
+#: templates/header-search.php:2
+msgid "Type your search here"
+msgstr ""
+
+#: templates/pagesearch.php:11
+msgid "All Categories"
+msgstr ""
+
+#: templates/none.php:2
+msgid "Nothing Found"
+msgstr ""
+
+#: templates/none.php:7
+msgid "Ready to publish your first post?"
+msgstr ""
+
+#: templates/none.php:7
+msgid "Get started here"
+msgstr ""
+
+#: templates/none.php:11
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with "
+"different keywords."
+msgstr ""
+
+#: templates/none.php:16
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: templates/single/related.php:22
+msgid "Related post"
+msgstr ""
+
+#: vc_templates/lane_categorylist.php:37
+msgid " Products"
+msgstr ""
+
+#: vc_templates/lane_testimonials.php:46
+msgid "Have No Testimonial!"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:93
+msgid ""
+"Note: Shipping and taxes are estimated %s and will be updated during "
+"checkout based on your billing and shipping information."
+msgstr ""
+
+#: woocommerce/cart/cart.php:116
+msgid "Estimate Shipping & Taxes"
+msgstr ""
+
+#: woocommerce/cart/cart.php:117
+msgid "Use Gift Voucher"
+msgstr ""
+
+#: woocommerce/cart/cart.php:119
+msgid "Use Coupon Code"
+msgstr ""
+
+#: woocommerce/cart/cart.php:127
+msgid "Have no gift voucher!"
+msgstr ""
+
+#: woocommerce/cart/cart.php:132
+msgid "Enter your coupon code if you have one."
+msgstr ""
+
+#: woocommerce/cart/cart.php:155
+msgid "Confirm Order"
+msgstr ""
+
+#: woocommerce/cart/cart.php:127
+msgid "Estimate shipping and tax"
+msgstr ""
+
+#: woocommerce/cart/cart.php:128
+msgid "Enter your destination to get shipping & tax"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:21
+msgid "My cart:"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:68
+msgid "You have no items in your shopping cart"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:22
+msgid "Enter your destination to get a shipping estimate"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:26
+msgid "Country"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:46
+msgid "Region / State"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:85
+msgid "Post Code"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:91
+msgid "Get Quotes"
+msgstr ""
+
+#: woocommerce/loop/new-flash.php:15
+msgid "New"
+msgstr ""
+
+#: woocommerce/loop/orderby.php:13
+msgid "Short by:"
+msgstr ""
+
+#: woocommerce/myaccount/form-change-password.php:26
+msgid "It is not possible to change the password for the demo account."
+msgstr ""
+
+#: woocommerce/myaccount/form-change-password.php:54
+msgid "Change password"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:23
+msgid "My Orders"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:25
+msgid "My Downloads"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:31
+msgid "Address Book"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:33
+msgid "Change Password"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:36
+msgid "Hello, Welcome to your account."
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:40
+msgid "Sign In With Facebook"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:43
+msgid "Sign In With Twitter"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:86
+msgid "Create a New Acount"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:87
+msgid "Create your own Unicase account."
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:126
+msgid "Sign Up Today And You Will Be Able To:"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:129
+msgid "Speed your way through the checkout."
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:131
+msgid "Track your orders easily."
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:133
+msgid "Keep a record of all your purchases."
+msgstr ""
+
+#: woocommerce/product-layout/infinite.php:17
+msgid "LOAD MORE"
+msgstr ""
+
+#: woocommerce/product-layout/grid.php:61
+msgid "All"
+msgstr ""
+
+#: woocommerce/product-layout/grid.php:86
+msgid "View More"
+msgstr ""
+
+#: woocommerce/single-layout/variable.php:65
+msgid "Clear selection"
+msgstr ""
+
+#: woocommerce/single-layout/related.php:61
+msgid "Have no product!"
+msgstr ""
+
+#: woocommerce/widgets/widget-cart.php:23
+msgid "Display the user's Cart in the sidebar."
+msgstr ""
+
+#: woocommerce/widgets/widget-cart.php:25
+msgid "Lane Cart Widget"
+msgstr ""
+
+#: woocommerce/widgets/widget-cart.php:29
+msgid "Cart"
+msgstr ""
+
+#: woocommerce/widgets/widget-cart.php:35
+msgid "Hide if cart is empty"
+msgstr ""
+
+#: lib/admin/options.php:79
+msgid "Section via hook"
+msgstr ""
+
+#: lib/admin/options.php:154
+msgid "Current theme preview"
+msgstr ""
+
+#: lib/admin/options.php:166
+msgid "Tags"
+msgstr ""
+
+#: footer.php:30
+msgid "&copy; 2017 Fato. All Rights Reserved. Designed with love by Bily."
+msgstr ""

@@ -1,0 +1,137 @@
+header.page-header.header-2 .mainheader .header-extra,
+header.page-header.header-3 .mainheader .header-extra,
+header.page-header.header-global .mainheader .header-extra {
+  margin-top: 20px;
+}
+.lane-panel .panel-title a:after {
+  float: left;
+}
+#page-footer .social-networks li {
+  float: right;
+}
+select.form-control {
+  background-position: top left;
+}
+.single-container .entry-date,
+.post-container .entry-date {
+  float: right;
+}
+.single-container .post-inner,
+.post-container .post-inner {
+  margin-left: 0;
+  margin-right: 70px;
+}
+.single .single-container .post-image .entry-date,
+.single-post .single-container .post-image .entry-date {
+  left: auto;
+  right: 0;
+}
+.single .post-entry.no-thumb .post-title,
+.single-post .post-entry.no-thumb .post-title,
+.single .post-entry.no-thumb .post-meta,
+.single-post .post-entry.no-thumb .post-meta,
+.single .post-entry.no-thumb .post-content,
+.single-post .post-entry.no-thumb .post-content {
+  margin-left: 0;
+  margin-right: 80px;
+}
+.post-container.post-masonry .meta-heading {
+  margin-left: 0;
+  margin-right: 80px;
+}
+.post-container .post-container-inner {
+  margin-right: 200px;
+  margin-left: 0;
+}
+.paging {
+  float: right;
+}
+.paging .pagination {
+  padding-right: 0;
+}
+.paging .pagination > li {
+  float: right;
+}
+.paging .pagination > li > span {
+  margin: 0 0 5px;
+}
+.single-container .single-container-inner {
+  margin-right: 200px;
+  margin-left: 0;
+}
+.product-slide.owl-theme .owl-nav .owl-prev,
+.product-slide.owl-theme .owl-nav .owl-next {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.product-slide.owl-theme .owl-nav .owl-prev .fa,
+.product-slide.owl-theme .owl-nav .owl-next .fa {
+  position: relative;
+  top: -1px;
+  right: -1px;
+}
+.post-widget article img,
+.comment-widget article img {
+  float: right;
+  margin-left: 15px;
+  margin-right: 0;
+}
+.nav-tabs > li {
+  float: right;
+}
+.nav-tabs > li > a {
+  margin-right: 0;
+  margin-left: 10px;
+}
+.nav-tabs > li:first-child > a {
+  margin-right: 0;
+}
+.item-product-widget .images {
+  margin-right: 0;
+  margin-left: 12px;
+}
+.product-block .name {
+  padding-left: 80px;
+  padding-right: 0;
+}
+#single-product .cart-action .button,
+#single-product div.quantity input,
+#single-product div.summary .star-rating {
+  float: right;
+}
+#single-product div.summary .star-rating {
+  margin-left: 3px;
+  margin-right: 0;
+}
+.commentlists div.avatar {
+  margin-right: 0;
+  float: right;
+  margin-left: 15px;
+}
+.commentlists .children {
+  padding-left: 0;
+  padding-right: 70px;
+}
+.commentlists .the-comment .comment-box {
+  margin-right: 0;
+  margin-left: 70px;
+}
+@media (max-width: 992px) {
+  .clear-lef-sm,
+  #page-footer .footer-content .footer-last {
+    clear: right;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .post-container .post-container-inner {
+    margin-right: 0;
+  }
+  .single-container .single-container-inner {
+    margin-right: 0;
+  }
+  .post-meta ul {
+    padding-right: 0;
+  }
+}

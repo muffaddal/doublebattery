@@ -467,3 +467,131 @@ form.wpcf7-form input.wpcf7-text:active,
     }
 }
 header.page-header .mainheader .logo-box .logo img{height:58px}header.page-header.header-sticky .mainheader .logo-box .logo img{height:58px}
+
+body {
+    color: #747474;
+}
+
+body {
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+}
+
+.wez-nav-menu, .wez-nav-menu.wez-nav-menu-horizontal > li > a {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+h1 {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 36px;
+}
+
+h2 {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+h3 {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+h4 {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+h5 {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+h6 {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.page-title h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.page-title-container {
+    color: #ffffff;
+}
+
+.vc_custom_1486122287570 {
+    margin-bottom: 100px !important;
+}
+
+.vc_custom_1471345253559 {
+    margin-bottom: 105px !important;
+}
+
+.vc_custom_1482895213820 {
+    margin-bottom: 10px !important;
+}
+
+.vc_custom_1482909549580 {
+    margin-bottom: 100px !important;
+}
+
+.vc_custom_1478596642681 {
+    margin-bottom: 80px !important;
+}
+
+.vc_custom_1482345642420 {
+    margin-bottom: 0px !important;
+    padding-top: 80px !important;
+    padding-bottom: 120px !important;
+}
+
+.vc_custom_1482909310902 {
+    padding-top: 15px !important;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    background-color: #333333 !important;
+}
+
+.vc_custom_1482908946185 {
+    margin-bottom: 0px !important;
+    padding-top: 10px !important;
+    background-color: #333333 !important;
+}
+
+.vc_custom_1480929638936 {
+    margin-bottom: 0px !important;
+}
+
+.vc_custom_1480919260385 {
+    margin-bottom: 0px !important;
+}
+
+.wpb_animate_when_almost_visible {
+    opacity: 1;
+}
+
+.woocommerce- product-gallery {
+    opacity: 1 !important;
+}
+
+.recentcomments
+a {
+    display: inline !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+body.custom-background {
+    background-color: #ffffff;
+}

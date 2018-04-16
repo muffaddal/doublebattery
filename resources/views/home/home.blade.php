@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
     <link rel="profile" href="http://gmpg.org/xfn/11">
-    <link rel="pingback" href="http://www.doublebattery.com/xmlrpc.php">
+    <link rel="pingback"href="{{ URL::asset('theme//xmlrpc.php')}}">
     <script type="text/javascript">document.documentElement.className = document.documentElement.className + ' yes-js js_active js'</script>
     <script>(function (html) {
             html.className = html.className.replace(/\bno-js\b/, 'js')
@@ -20,9 +20,9 @@
     <link rel='dns-prefetch' href='//fonts.googleapis.com'/>
     <link rel='dns-prefetch' href='//s.w.org'/>
     <link rel="alternate" type="application/rss+xml" title="Double Battery &raquo; Feed"
-          href="http://www.doublebattery.com/feed/"/>
+          href="{{ URL::asset('theme/feed/') }}"/>
     <link rel="alternate" type="application/rss+xml" title="Double Battery &raquo; Comments Feed"
-          href="http://www.doublebattery.com/comments/feed/"/>
+          href="{{ URL::asset('theme/comments/feed/')}}"/>
     <script type="text/javascript">
         window._wpemojiSettings = {
             "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/2.4\/72x72\/",
@@ -73,10 +73,10 @@
         }(window, document, window._wpemojiSettings);
     </script>
     <link rel='stylesheet' id='contact-form-7-css'
-          href='http://www.doublebattery.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.0.1'
+          href="{{ URL::asset('theme/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.0.1')}}"
           type='text/css' media='all'/>
     <link rel='stylesheet' id='rs-plugin-settings-css'
-          href='http://www.doublebattery.com/wp-content/plugins/revslider/public/assets/css/settings.css?ver=5.4.6.4'
+          href="{{ URL::asset('theme/wp-content/plugins/revslider/public/assets/css/settings.css?ver=5.4.6.4')}}"
           type='text/css' media='all'/>
     <style id='rs-plugin-settings-inline-css' type='text/css'>
         #rs-demo-id {
@@ -150,7 +150,9 @@
           type='text/css' media='all'/>
     <link rel='stylesheet' id='wplane-pretty-css-css'
           href="{{ URL::asset('theme/wp-content/themes/fatotheme/assets/lib/owl-carousel/owl.transitions.css') }}"
-          href='http://www.doublebattery.com/wp-content/plugins/lanethemekit/pagebuilder/classes/portfolio/assets/css/prettyPhoto.css?ver=4.9.3'
+          type='text/css' media='all'/>
+    <link rel='stylesheet' id='wplane-pretty-css-css'
+          href="{{ URL::asset('theme/wp-content/themes/wp-content/plugins/lanethemekit/pagebuilder/classes/portfolio/assets/css/prettyPhoto.css') }}"
           type='text/css' media='all'/>
     <link rel='stylesheet' id='alg-wc-civs-css'
           href="{{ URL::asset('theme/wp-content/plugins/color-or-image-variation-swatches-for-woocommerce/assets/dist/frontend/css/alg-wc-civs.min.css') }}"
@@ -206,7 +208,7 @@
     <script type='text/javascript'
             src="{{ URL::asset('theme/wp-content/themes/fatotheme/lib/woocommerce/js/woocommerce.js') }}"></script>
     <!--[if lt IE 9]>
-    <script type='text/javascript' src='http://www.doublebattery.com/wp-content/themes/fatotheme?ver=3.7.3'></script>
+    <script type='text/javascript' src="{{ URL::asset('theme//wp-content/themes/fatotheme?ver=3.7.3')}}"></script>
     <![endif]-->
     <script type='text/javascript'
             src="{{ URL::asset('theme/wp-content/plugins/lanethemekit/pagebuilder/classes/portfolio/assets/js/prettyPhoto/jquery.prettyPhoto.js') }}"></script>
@@ -261,22 +263,6 @@
     <script
             type="text/javascript">
         var ajaxurl = "{{ URL::asset('theme/wp-admin/admin-ajax.php') }}"</script>
-    <noscript>
-        <style>
-            .woocommerce- product-gallery {
-                opacity: 1 !important;
-            }
-        </style>
-    </noscript>
-    <style
-            type="text/css">
-        .recentcomments
-        a {
-            display: inline !important;
-            padding: 0 !important;
-            margin: 0 !important;
-        }
-    </style>
     <meta
             name="generator"
             content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress."
@@ -289,16 +275,8 @@
             rel="stylesheet"
             type="text/css"
             href="{{ URL::asset('wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.doublebattery.com%2F&#038;format=xml') }}"
-            href="http://www.doublebattery.com/"
             media="screen">
     < ![endif]-- >
-    <style
-            type="text/css"
-            id="custom-background-css">
-        body.custom-background {
-            background-color: #ffffff;
-        }
-    </style>
     <meta
             name="generator"
             content="Powered by Slider Revolution 5.4.6.4 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface."
@@ -309,21 +287,21 @@
     />
     <link
             rel="icon"
-            href="http://www.doublebattery.com/wp-content/uploads/2018/01/cropped-resized_logo_db-32x32.png"
+            href="{{ URL::asset('theme/wp-content/uploads/2018/01/cropped-resized_logo_db-32x32.png') }}"
             sizes="32x32"
     />
     <link
             rel="icon"
-            href="http://www.doublebattery.com/wp-content/uploads/2018/01/cropped-resized_logo_db-192x192.png"
+            href="{{ URL::asset('theme/wp-content/uploads/2018/01/cropped-resized_logo_db-192x192.png') }}"
             sizes="192x192"
     />
     <link
             rel="apple-touch-icon-precomposed"
-            href="http://www.doublebattery.com/wp-content/uploads/2018/01/cropped-resized_logo_db-180x180.png"
+            href="{{ URL::asset('theme/wp-content/uploads/2018/01/cropped-resized_logo_db-180x180.png') }}"
     />
     <meta
             name="msapplication-TileImage"
-            content="http://www.doublebattery.com/wp-content/uploads/2018/01/cropped-resized_logo_db-270x270.png"
+            href="{{ URL::asset('theme/wp-content/uploads/2018/01/cropped-resized_logo_db-270x270.png') }}"
     />
     <script
             type="text/javascript"> function setREVStartSize(e) {
@@ -347,120 +325,7 @@
             }
         };
     </script>
-    <style type="text/css" title="dynamic-css" class="options-output">body {
-            color: #747474;
-        }
-
-        body {
-            font-family: Poppins;
-            font-weight: 400;
-            font-style: normal;
-            font-size: 14px;
-        }
-
-        .wez-nav-menu, .wez-nav-menu.wez-nav-menu-horizontal > li > a {
-            font-family: Poppins;
-            font-weight: 400;
-            font-size: 14px;
-        }
-
-        h1 {
-            font-family: Poppins;
-            font-weight: 400;
-            font-size: 36px;
-        }
-
-        h2 {
-            font-family: Poppins;
-            font-weight: 400;
-            font-size: 30px;
-        }
-
-        h3 {
-            font-family: Poppins;
-            font-weight: 400;
-            font-size: 24px;
-        }
-
-        h4 {
-            font-family: Poppins;
-            font-weight: 400;
-            font-size: 18px;
-        }
-
-        h5 {
-            font-family: Poppins;
-            font-weight: 400;
-            font-size: 14px;
-        }
-
-        h6 {
-            font-family: Poppins;
-            font-weight: 400;
-            font-size: 12px;
-        }
-
-        .page-title h1 {
-            font-family: Arial, Helvetica, sans-serif;
-            font-weight: 700;
-            font-size: 40px;
-        }
-
-        .page-title-container {
-            color: #ffffff;
-        }</style>
-    <style type="text/css" data-type="vc_shortcodes-custom-css">.vc_custom_1486122287570 {
-            margin-bottom: 100px !important;
-        }
-
-        .vc_custom_1471345253559 {
-            margin-bottom: 105px !important;
-        }
-
-        .vc_custom_1482895213820 {
-            margin-bottom: 10px !important;
-        }
-
-        .vc_custom_1482909549580 {
-            margin-bottom: 100px !important;
-        }
-
-        .vc_custom_1478596642681 {
-            margin-bottom: 80px !important;
-        }
-
-        .vc_custom_1482345642420 {
-            margin-bottom: 0px !important;
-            padding-top: 80px !important;
-            padding-bottom: 120px !important;
-        }
-
-        .vc_custom_1482909310902 {
-            padding-top: 15px !important;
-            padding-right: 0px !important;
-            padding-left: 0px !important;
-            background-color: #333333 !important;
-        }
-
-        .vc_custom_1482908946185 {
-            margin-bottom: 0px !important;
-            padding-top: 10px !important;
-            background-color: #333333 !important;
-        }
-
-        .vc_custom_1480929638936 {
-            margin-bottom: 0px !important;
-        }
-
-        .vc_custom_1480919260385 {
-            margin-bottom: 0px !important;
-        }</style>
-    <noscript>
-        <style type="text/css"> .wpb_animate_when_almost_visible {
-                opacity: 1;
-            }</style>
-    </noscript>
-    </noscript>
+</head>
 <body class="home page-template-default page page-id-146 custom-background lane-animate-scroll style-1 header-sticky  we-flip-horizontal wpb-js-composer js-comp-ver-5.4.5 vc_responsive"
       itemscope="itemscope" itemtype="http://schema.org/WebPage">
 <!-- START Wrapper -->
@@ -472,7 +337,7 @@
                 <div class="logo-box">
                     <div class="logo">
                         <a href="http://www.doublebattery.com/">
-                            <img src="http://www.doublebattery.com/wp-content/uploads/2018/01/double-batter-logo-e1516960009736.png"
+                            <img src="{{ URL::asset('theme//wp-content/uploads/2018/01/double-batter-logo-e1516960009736.png') }}"
                                  alt="Double Battery">
                         </a>
                     </div>
@@ -508,14 +373,13 @@
                                     <div class="language-switcher lc-switcher">
                                         <h3>Languages</h3>
                                         <ul class="language-list lc-list">
-                                            <li><a href="#"><img
-                                                            src="http://www.doublebattery.com/wp-content/themes/fatotheme/assets/images/icons/english.png"
-                                                            alt="English"/><span class="flag">English</span></a></li>
-                                            <li><a href="#"><img
-                                                            src="http://www.doublebattery.com/wp-content/themes/fatotheme/assets/images/icons/french.png"
+                                            <li><a href="#"><img src="{{ URL::asset('theme/wp-content/themes/fatotheme/assets/images/icons/english.png') }}"
+                                                            alt="English"/>
+                                                    <span class="flag">English</span></a></li>
+                                            <li><a href="#"><img src="{{ URL::asset('theme/wp-content/themes/fatotheme/assets/images/icons/french.png')}}"
                                                             alt="French"/><span class="flag">French</span></a></li>
                                             <li><a href="#"><img
-                                                            src="http://www.doublebattery.com/wp-content/themes/fatotheme/assets/images/icons/spanish.png"
+                                                            src="{{ URL::asset('theme/wp-content/themes/fatotheme/assets/images/icons/spanish.png')}}"
                                                             alt="Spanish"/><span class="flag">Spanish</span></a></li>
                                         </ul>
                                     </div>
@@ -664,13 +528,13 @@
                                                         data-slotamount="default" data-hideafterloop="0"
                                                         data-hideslideonmobile="off" data-easein="default"
                                                         data-easeout="default" data-masterspeed="default"
-                                                        data-thumb="http://www.doublebattery.com/wp-content/uploads/2016/12/h1-slide1-100x50.png"
+                                                        data-thumb="{{ URL::asset('theme/wp-content/uploads/2016/12/h1-slide1-100x50.png')}}"
                                                         data-rotate="0" data-saveperformance="off" data-title="Slide"
                                                         data-param1="" data-param2="" data-param3="" data-param4=""
                                                         data-param5="" data-param6="" data-param7="" data-param8=""
                                                         data-param9="" data-param10="" data-description="">
                                                         <!-- MAIN IMAGE -->
-                                                        <img src="http://www.doublebattery.com/wp-content/uploads/2016/12/h1-slide1.png"
+                                                        <img src="{{ URL::asset('theme/wp-content/uploads/2016/12/h1-slide1.png')}}"
                                                              alt="" title="h1-slide1" width="1782" height="942"
                                                              data-bgposition="center center" data-bgfit="cover"
                                                              data-bgrepeat="no-repeat" class="rev-slidebg"
@@ -754,13 +618,13 @@
                                                         data-slotamount="default" data-hideafterloop="0"
                                                         data-hideslideonmobile="off" data-easein="default"
                                                         data-easeout="default" data-masterspeed="default"
-                                                        data-thumb="http://www.doublebattery.com/wp-content/uploads/2016/12/h1-slide2-100x50.png"
+                                                        data-thumb="{{ URL::asset('theme/wp-content/uploads/2016/12/h1-slide2-100x50.png')}}"
                                                         data-rotate="0" data-saveperformance="off" data-title="Slide"
                                                         data-param1="" data-param2="" data-param3="" data-param4=""
                                                         data-param5="" data-param6="" data-param7="" data-param8=""
                                                         data-param9="" data-param10="" data-description="">
                                                         <!-- MAIN IMAGE -->
-                                                        <img src="http://www.doublebattery.com/wp-content/uploads/2016/12/h1-slide2.png"
+                                                        <img src="{{ URL::asset('theme/wp-content/uploads/2016/12/h1-slide2.png') }}"
                                                              alt="" title="h1-slide2" width="1782" height="942"
                                                              data-bgposition="center center" data-bgfit="cover"
                                                              data-bgrepeat="no-repeat" class="rev-slidebg"
@@ -1026,10 +890,10 @@
                                                 <a href="?post_type=product" target="_self"
                                                    class="vc_single_image-wrapper   vc_box_border_grey"><img width="570"
                                                                                                              height="300"
-                                                                                                             src="http://www.doublebattery.com/wp-content/uploads/2016/05/h1-b1.jpg"
+                                                                                                             src="{{ URL::asset('theme/wp-content/uploads/2016/05/h1-b1.jpg')}}"
                                                                                                              class="vc_single_image-img attachment-full"
                                                                                                              alt=""
-                                                                                                             srcset="http://www.doublebattery.com/wp-content/uploads/2016/05/h1-b1.jpg 570w, http://www.doublebattery.com/wp-content/uploads/2016/05/h1-b1-300x158.jpg 300w"
+                                                                                                             srcset="{{ URL::asset('theme/wp-content/uploads/2016/05/h1-b1.jpg 570w')}} , {{ URL::asset('theme/wp-content/uploads/2016/05/h1-b1-300x158.jpg 300')}}w"
                                                                                                              sizes="(max-width: 570px) 100vw, 570px"/></a>
                                             </figure>
                                         </div>
@@ -1040,10 +904,10 @@
                                                 <a href="?post_type=product" target="_self"
                                                    class="vc_single_image-wrapper   vc_box_border_grey"><img width="570"
                                                                                                              height="401"
-                                                                                                             src="http://www.doublebattery.com/wp-content/uploads/2016/05/h1-b3.jpg"
+                                                                                                             src="{{ URL::asset('theme/wp-content/uploads/2016/05/h1-b3.jpg')}}"
                                                                                                              class="vc_single_image-img attachment-full"
                                                                                                              alt=""
-                                                                                                             srcset="http://www.doublebattery.com/wp-content/uploads/2016/05/h1-b3.jpg 570w, http://www.doublebattery.com/wp-content/uploads/2016/05/h1-b3-300x211.jpg 300w, http://www.doublebattery.com/wp-content/uploads/2016/05/h1-b3-220x154.jpg 220w"
+                                                                                                             srcset="{{ URL::asset('theme/wp-content/uploads/2016/05/h1-b3.jpg 570w')}}, {{ URL::asset('theme/wp-content/uploads/2016/05/h1-b3-300x211.jpg 300w')}}, {{ URL::asset('theme/wp-content/uploads/2016/05/h1-b3-220x154.jpg 220w')}}"
                                                                                                              sizes="(max-width: 570px) 100vw, 570px"/></a>
                                             </figure>
                                         </div>
@@ -1059,10 +923,10 @@
                                                 <a href="?post_type=product" target="_self"
                                                    class="vc_single_image-wrapper   vc_box_border_grey"><img width="570"
                                                                                                              height="401"
-                                                                                                             src="http://www.doublebattery.com/wp-content/uploads/2016/05/h1-b2.jpg"
+                                                                                                             src="{{ URL::asset('theme/wp-content/uploads/2016/05/h1-b2.jpg')}}"
                                                                                                              class="vc_single_image-img attachment-full"
                                                                                                              alt=""
-                                                                                                             srcset="http://www.doublebattery.com/wp-content/uploads/2016/05/h1-b2.jpg 570w, http://www.doublebattery.com/wp-content/uploads/2016/05/h1-b2-300x211.jpg 300w, http://www.doublebattery.com/wp-content/uploads/2016/05/h1-b2-220x154.jpg 220w"
+                                                                                                             srcset="{{ URL::asset('theme/wp-content/uploads/2016/05/h1-b2.jpg 570w')}}, {{ URL::asset('theme/wp-content/uploads/2016/05/h1-b2-300x211.jpg 300w')}}, {{ URL::asset('theme/wp-content/uploads/2016/05/h1-b2-220x154.jpg 220w')}}"
                                                                                                              sizes="(max-width: 570px) 100vw, 570px"/></a>
                                             </figure>
                                         </div>
@@ -1073,10 +937,10 @@
                                                 <a href="?post_type=product" target="_self"
                                                    class="vc_single_image-wrapper   vc_box_border_grey"><img width="570"
                                                                                                              height="300"
-                                                                                                             src="http://www.doublebattery.com/wp-content/uploads/2016/05/h1-b4.jpg"
+                                                                                                             src="{{ URL::asset('theme/wp-content/uploads/2016/05/h1-b4.jpg')}}"
                                                                                                              class="vc_single_image-img attachment-full"
                                                                                                              alt=""
-                                                                                                             srcset="http://www.doublebattery.com/wp-content/uploads/2016/05/h1-b4.jpg 570w, http://www.doublebattery.com/wp-content/uploads/2016/05/h1-b4-300x158.jpg 300w"
+                                                                                                             srcset="{{ URL::asset('theme/wp-content/uploads/2016/05/h1-b4.jpg 570w')}}", {{ URL::asset('theme/wp-content/uploads/2016/05/h1-b4-300x158.jpg 300w')}}"
                                                                                                              sizes="(max-width: 570px) 100vw, 570px"/></a>
                                             </figure>
                                         </div>
@@ -1140,19 +1004,19 @@
                                                             <div class="product-block">
                                                                 <div class="image">
                                                                     <span class="onnew"><span>New</span></span>
-                                                                    <a href="http://www.doublebattery.com/product/john-jacob-b/">
+                                                                    <a href="{{ URL::asset('theme/product/john-jacob-b/') }}">
                                                                         <div class="pimage-effect"><img width="300"
                                                                                                         height="300"
-                                                                                                        src="http://www.doublebattery.com/wp-content/uploads/2018/02/TOS-F-002481_1-300x300.jpg"
+                                                                                                        src="{{ URL::asset('theme/wp-content/uploads/2018/02/TOS-F-002481_1-300x300.jpg') }} "
                                                                                                         class="attachment-shop_catalog image-effect"
                                                                                                         alt=""
-                                                                                                        srcset="http://www.doublebattery.com/wp-content/uploads/2018/02/TOS-F-002481_1-300x300.jpg 300w, http://www.doublebattery.com/wp-content/uploads/2018/02/TOS-F-002481_1-150x150.jpg 150w, http://www.doublebattery.com/wp-content/uploads/2018/02/TOS-F-002481_1-768x768.jpg 768w, http://www.doublebattery.com/wp-content/uploads/2018/02/TOS-F-002481_1-1024x1024.jpg 1024w, http://www.doublebattery.com/wp-content/uploads/2018/02/TOS-F-002481_1-400x400.jpg 400w, http://www.doublebattery.com/wp-content/uploads/2018/02/TOS-F-002481_1.jpg 1100w"
+                                                                                                        srcset="{{ URL::asset('theme/wp-content/uploads/2018/02/TOS-F-002481_1-300x300.jpg 300w')}}, {{ URL::asset('theme/wp-content/uploads/2018/02/TOS-F-002481_1-150x150.jpg 150w')}}, {{ URL::asset('theme/wp-content/uploads/2018/02/TOS-F-002481_1-768x768.jpg 768w')}}, {{ URL::asset('theme/wp-content/uploads/2018/02/TOS-F-002481_1-1024x1024.jpg 1024w')}}, {{ URL::asset('theme/wp-content/uploads/2018/02/TOS-F-002481_1-400x400.jpg 400w')}}, {{ URL::asset('theme/wp-content/uploads/2018/02/TOS-F-002481_1.jpg 1100w')}}"
                                                                                                         sizes="(max-width: 300px) 100vw, 300px"/>
                                                                         </div>
-                                                                        <img src="http://www.doublebattery.com/wp-content/uploads/2018/02/TOS-F-002481_2-300x300.jpg"
+                                                                        <img src="{{ URL::asset('theme/wp-content/uploads/2018/02/TOS-F-002481_2-300x300.jpg')}}"
                                                                              class="post-featured-image wp-post-image"
                                                                              alt=""
-                                                                             srcset="http://www.doublebattery.com/wp-content/uploads/2018/02/TOS-F-002481_2-300x300.jpg 300w, http://www.doublebattery.com/wp-content/uploads/2018/02/TOS-F-002481_2-150x150.jpg 150w, http://www.doublebattery.com/wp-content/uploads/2018/02/TOS-F-002481_2-768x768.jpg 768w, http://www.doublebattery.com/wp-content/uploads/2018/02/TOS-F-002481_2-1024x1024.jpg 1024w, http://www.doublebattery.com/wp-content/uploads/2018/02/TOS-F-002481_2-400x400.jpg 400w, http://www.doublebattery.com/wp-content/uploads/2018/02/TOS-F-002481_2.jpg 1100w"
+                                                                             srcset="{{ URL::asset('theme/wp-content/uploads/2018/02/TOS-F-002481_2-300x300.jpg 300w')}}, {{ URL::asset('theme/wp-content/uploads/2018/02/TOS-F-002481_2-150x150.jpg 150w')}}, {{ URL::asset('theme/wp-content/uploads/2018/02/TOS-F-002481_2-768x768.jpg 768w')}}, {{ URL::asset('theme/wp-content/uploads/2018/02/TOS-F-002481_2-1024x1024.jpg 1024w')}}, {{ URL::asset('theme/wp-content/uploads/2018/02/TOS-F-002481_2-400x400.jpg 400w')}}, {{ URL::asset('theme/wp-content/uploads/2018/02/TOS-F-002481_2.jpg 1100w')}}"
                                                                              sizes="(max-width: 300px) 100vw, 300px"/>
                                                                     </a>
                                                                     <div class="custom-attrs">
@@ -1165,7 +1029,7 @@
                                                                         </ul>
                                                                     </div>
                                                                     <div class="product-button-action button-func">
-                                                                        <a href="http://www.doublebattery.com/product/john-jacob-b/"
+                                                                        <a href="{{ URL::asset('theme/product/john-jacob-b/')}}"
                                                                            rel="nofollow" data-product_id="1303"
                                                                            data-product_sku="112" data-quantity="1"
                                                                            class="button add_to_cart_button btn-cart non_ajax_add_to_cart btn-addtocart"><span
@@ -1182,7 +1046,7 @@
                                                                         <a data-tip="Quick view"
                                                                            class="woo-product-quickview btn-quickview btn-link quickview tip-top"
                                                                            data-product_id="1303"
-                                                                           href="http://www.doublebattery.com/product/john-jacob-b/">
+                                                                           href="{{ URL::asset('theme/product/john-jacob-b/')}}">
                                                                             <span><i class="icons icon-magnifier-add"></i></span></a>
                                                                         <div class="yith-wcwl-add-to-wishlist add-to-wishlist-1303">
                                                                             <div class="yith-wcwl-add-button show"
@@ -1192,7 +1056,7 @@
                                                                                    data-product-type="variable"
                                                                                    class="add_to_wishlist">
                                                                                     Add to Wishlist</a>
-                                                                                <img src="http://www.doublebattery.com/wp-content/plugins/yith-woocommerce-wishlist/assets/images/wpspin_light.gif"
+                                                                                <img src="{{ URL::asset('theme//wp-content/plugins/yith-woocommerce-wishlist/assets/images/wpspin_light.gif')}}"
                                                                                      class="ajax-loading" alt="loading"
                                                                                      width="16" height="16"
                                                                                      style="visibility:hidden"/>
@@ -1200,14 +1064,14 @@
                                                                             <div class="yith-wcwl-wishlistaddedbrowse hide"
                                                                                  style="display:none;">
                                                                                 <span class="feedback">Product added!</span>
-                                                                                <a href="http://www.doublebattery.com/shop/"
+                                                                                <a href="{{ URL::asset('theme/shop/')}}"
                                                                                    rel="nofollow">
                                                                                     Browse Wishlist </a>
                                                                             </div>
                                                                             <div class="yith-wcwl-wishlistexistsbrowse hide"
                                                                                  style="display:none">
                                                                                 <span class="feedback">The product is already in the wishlist!</span>
-                                                                                <a href="http://www.doublebattery.com/shop/"
+                                                                                <a href="{{ URL::asset('theme/shop/')}}"
                                                                                    rel="nofollow">
                                                                                     Browse Wishlist </a>
                                                                             </div>
@@ -1222,13 +1086,13 @@
                                                                     </div>
                                                                 </div>
                                                                 <div class="product-cat">
-                                                                    <a href="http://www.doublebattery.com/product-category/eyewear/"
+                                                                    <a href="{{ URL::asset('theme/product-category/eyewear/')}}"
                                                                        rel="tag">Eyewear</a>, <a
-                                                                            href="http://www.doublebattery.com/product-category/eyewear/men/"
+                                                                            href="{{ URL::asset('theme/product-category/eyewear/men/')}}"
                                                                             rel="tag">Men</a>
                                                                 </div>
                                                                 <h4 class="name"><a
-                                                                            href="http://www.doublebattery.com/product/john-jacob-b/">John
+                                                                            href="{{ URL::asset('theme/product/john-jacob-b/')}}">John
                                                                         Jacob B</a></h4>
                                                                 <span class="price"><span
                                                                             class="woocommerce-Price-amount amount"><span
@@ -1244,13 +1108,13 @@
                                                                customer rating(s)			</span>
                                                                         </div>
                                                                     </div>
-                                                                    <a href="http://www.doublebattery.com/product/john-jacob-b/#reviews"
+                                                                    <a href="{{ URL::asset('theme/john-jacob-b')}}/#reviews"
                                                                        class="woocommerce-review-link" rel="nofollow">
                                                                         <span class="count">0</span>
                                                                         Review(s) / Add Your Review </a>
                                                                 </div>
                                                                 <div class="addtocart-bottom-button"><a
-                                                                            href="http://www.doublebattery.com/product/john-jacob-b/"
+                                                                            href="{{ URL::asset('theme//product/john-jacob-b/')}}"
                                                                             rel="nofollow" data-product_id="1303"
                                                                             data-product_sku="112" data-quantity="1"
                                                                             class="button add_to_cart_button btn-cart non_ajax_add_to_cart btn-addtocart"><span
@@ -1267,19 +1131,19 @@
                                                                 <div class="image">
                                                                     <span class="onsale"><span>Sale</span></span>
                                                                     <span class="onnew"><span>New</span></span>
-                                                                    <a href="http://www.doublebattery.com/product/john-jacob/">
+                                                                    <a href="{{ URL::asset('theme/product/john-jacob/')}}">
                                                                         <div class="pimage-effect"><img width="300"
                                                                                                         height="300"
-                                                                                                        src="http://www.doublebattery.com/wp-content/uploads/2018/02/TOS-S-000445-1-300x300.jpg"
+                                                                                                        src="{{ URL::asset('theme/wp-content/uploads/2018/02/TOS-S-000445-1-300x300.jpg')}}"
                                                                                                         class="attachment-shop_catalog image-effect"
                                                                                                         alt=""
-                                                                                                        srcset="http://www.doublebattery.com/wp-content/uploads/2018/02/TOS-S-000445-1-300x300.jpg 300w, http://www.doublebattery.com/wp-content/uploads/2018/02/TOS-S-000445-1-150x150.jpg 150w, http://www.doublebattery.com/wp-content/uploads/2018/02/TOS-S-000445-1-768x768.jpg 768w, http://www.doublebattery.com/wp-content/uploads/2018/02/TOS-S-000445-1-1024x1024.jpg 1024w, http://www.doublebattery.com/wp-content/uploads/2018/02/TOS-S-000445-1-400x400.jpg 400w, http://www.doublebattery.com/wp-content/uploads/2018/02/TOS-S-000445-1.jpg 1100w"
+                                                                                                        srcset="{{ URL::asset('theme/wp-content/uploads/2018/02/TOS-S-000445-1-300x300.jpg 300w')}}, {{ URL::asset('theme/wp-content/uploads/2018/02/TOS-S-000445-1-150x150.jpg 150w')}}, {{ URL::asset('theme/wp-content/uploads/2018/02/TOS-S-000445-1-768x768.jpg 768w')}}, {{ URL::asset('theme/wp-content/uploads/2018/02/TOS-S-000445-1-1024x1024.jpg 1024w')}}, {{ URL::asset('theme/wp-content/uploads/2018/02/TOS-S-000445-1-400x400.jpg 400w')}}, {{ URL::asset('theme/wp-content/uploads/2018/02/TOS-S-000445-1.jpg 1100w')}}"
                                                                                                         sizes="(max-width: 300px) 100vw, 300px"/>
                                                                         </div>
-                                                                        <img src="http://www.doublebattery.com/wp-content/uploads/2018/02/TOS-S-000445-2-300x300.jpg"
+                                                                        <img src="{{ URL::asset('theme/wp-content/uploads/2018/02/TOS-S-000445-2-300x300.jpg')}}"
                                                                              class="post-featured-image wp-post-image"
                                                                              alt=""
-                                                                             srcset="http://www.doublebattery.com/wp-content/uploads/2018/02/TOS-S-000445-2-300x300.jpg 300w, http://www.doublebattery.com/wp-content/uploads/2018/02/TOS-S-000445-2-150x150.jpg 150w, http://www.doublebattery.com/wp-content/uploads/2018/02/TOS-S-000445-2-768x768.jpg 768w, http://www.doublebattery.com/wp-content/uploads/2018/02/TOS-S-000445-2-1024x1024.jpg 1024w, http://www.doublebattery.com/wp-content/uploads/2018/02/TOS-S-000445-2-400x400.jpg 400w, http://www.doublebattery.com/wp-content/uploads/2018/02/TOS-S-000445-2.jpg 1100w"
+                                                                             srcset="{{ URL::asset('theme/wp-content/uploads/2018/02/TOS-S-000445-2-300x300.jpg 300w')}}, {{ URL::asset('theme/wp-content/uploads/2018/02/TOS-S-000445-2-150x150.jpg 150wn')}}, {{ URL::asset('theme/wp-content/uploads/2018/02/TOS-S-000445-2-768x768.jpg 768w')}}, {{ URL::asset('theme/wp-content/uploads/2018/02/TOS-S-000445-2-1024x1024.jpg 1024w')}}, {{ URL::asset('theme/wp-content/uploads/2018/02/TOS-S-000445-2-400x400.jpg 400w')}}, {{ URL::asset('theme/wp-content/uploads/2018/02/TOS-S-000445-2.jpg 1100w')}}"
                                                                              sizes="(max-width: 300px) 100vw, 300px"/>
                                                                     </a>
                                                                     <div class="custom-attrs">
@@ -1299,7 +1163,7 @@
                                                                         </ul>
                                                                     </div>
                                                                     <div class="product-button-action button-func">
-                                                                        <a href="http://www.doublebattery.com/product/john-jacob/"
+                                                                        <a href="{{ URL::asset('theme/product/john-jacob/')}}"
                                                                            rel="nofollow" data-product_id="1296"
                                                                            data-product_sku="111" data-quantity="1"
                                                                            class="button add_to_cart_button btn-cart non_ajax_add_to_cart btn-addtocart"><span
@@ -1316,7 +1180,7 @@
                                                                         <a data-tip="Quick view"
                                                                            class="woo-product-quickview btn-quickview btn-link quickview tip-top"
                                                                            data-product_id="1296"
-                                                                           href="http://www.doublebattery.com/product/john-jacob/">
+                                                                           href="{{ URL::asset('theme/product/john-jacob/')}}">
                                                                             <span><i class="icons icon-magnifier-add"></i></span></a>
                                                                         <div class="yith-wcwl-add-to-wishlist add-to-wishlist-1296">
                                                                             <div class="yith-wcwl-add-button show"
@@ -1326,7 +1190,7 @@
                                                                                    data-product-type="variable"
                                                                                    class="add_to_wishlist">
                                                                                     Add to Wishlist</a>
-                                                                                <img src="http://www.doublebattery.com/wp-content/plugins/yith-woocommerce-wishlist/assets/images/wpspin_light.gif"
+                                                                                <img src="{{ URL::asset('theme/wp-content/plugins/yith-woocommerce-wishlist/assets/images/wpspin_light.gif')}}"
                                                                                      class="ajax-loading" alt="loading"
                                                                                      width="16" height="16"
                                                                                      style="visibility:hidden"/>
@@ -1334,14 +1198,14 @@
                                                                             <div class="yith-wcwl-wishlistaddedbrowse hide"
                                                                                  style="display:none;">
                                                                                 <span class="feedback">Product added!</span>
-                                                                                <a href="http://www.doublebattery.com/shop/"
+                                                                                <a href="{{ URL::asset('theme/shop/')}}"
                                                                                    rel="nofollow">
                                                                                     Browse Wishlist </a>
                                                                             </div>
                                                                             <div class="yith-wcwl-wishlistexistsbrowse hide"
                                                                                  style="display:none">
                                                                                 <span class="feedback">The product is already in the wishlist!</span>
-                                                                                <a href="http://www.doublebattery.com/shop/"
+                                                                                <a href="http://{{ URL::asset('theme/shop/')}}"
                                                                                    rel="nofollow">
                                                                                     Browse Wishlist </a>
                                                                             </div>
@@ -1356,13 +1220,13 @@
                                                                     </div>
                                                                 </div>
                                                                 <div class="product-cat">
-                                                                    <a href="http://www.doublebattery.com/product-category/eyewear/"
+                                                                    <a href="{{ URL::asset('theme/product-category/eyewear/')}}"
                                                                        rel="tag">Eyewear</a>, <a
-                                                                            href="http://www.doublebattery.com/product-category/eyewear/men/"
+                                                                            href="{{ URL::asset('theme/product-category/eyewear/men/')}}"
                                                                             rel="tag">Men</a>
                                                                 </div>
                                                                 <h4 class="name"><a
-                                                                            href="http://www.doublebattery.com/product/john-jacob/">JOHN
+                                                                            href="{{ URL::asset('theme/product/john-jacob/')}}">JOHN
                                                                         JACOB</a></h4>
                                                                 <span class="price"><span
                                                                             class="woocommerce-Price-amount amount"><span
@@ -1378,13 +1242,13 @@
                                                                customer rating(s)			</span>
                                                                         </div>
                                                                     </div>
-                                                                    <a href="http://www.doublebattery.com/product/john-jacob/#reviews"
+                                                                    <a href="{{ URL::asset('theme/product/john-jacob/')}}#reviews"
                                                                        class="woocommerce-review-link" rel="nofollow">
                                                                         <span class="count">0</span>
                                                                         Review(s) / Add Your Review </a>
                                                                 </div>
                                                                 <div class="addtocart-bottom-button"><a
-                                                                            href="http://www.doublebattery.com/product/john-jacob/"
+                                                                            href="{{ URL::asset('theme/john-jacob/')}}"
                                                                             rel="nofollow" data-product_id="1296"
                                                                             data-product_sku="111" data-quantity="1"
                                                                             class="button add_to_cart_button btn-cart non_ajax_add_to_cart btn-addtocart"><span
@@ -1426,22 +1290,22 @@
                                             <div class="owl-carousel"
                                                  data-plugin-options='{"items" : 5, "autoPlay": false,"pagination": true,"navigation": false}'>
                                                 <div class="partner"><img width="150" height="100"
-                                                                          src="http://www.doublebattery.com/wp-content/uploads/2016/05/client-1.png"
+                                                                          src="{{ URL::asset('theme/wp-content/uploads/2016/05/client-1.png')}}"
                                                                           class="attachment-full" alt=""/></div>
                                                 <div class="partner"><img width="150" height="100"
-                                                                          src="http://www.doublebattery.com/wp-content/uploads/2016/05/client-2.png"
+                                                                          src="{{ URL::asset('theme/wp-content/uploads/2016/05/client-2.png')}}"
                                                                           class="attachment-full" alt=""/></div>
                                                 <div class="partner"><img width="150" height="100"
-                                                                          src="http://www.doublebattery.com/wp-content/uploads/2016/05/client-3.png"
+                                                                          src="{{ URL::asset('theme/wp-content/uploads/2016/05/client-3.png')}}"
                                                                           class="attachment-full" alt=""/></div>
                                                 <div class="partner"><img width="150" height="100"
-                                                                          src="http://www.doublebattery.com/wp-content/uploads/2016/05/client-4.png"
+                                                                          src="{{ URL::asset('theme/wp-content/uploads/2016/05/client-4.png')}}"
                                                                           class="attachment-full" alt=""/></div>
                                                 <div class="partner"><img width="150" height="100"
-                                                                          src="http://www.doublebattery.com/wp-content/uploads/2016/05/client-5.png"
+                                                                          src="{{ URL::asset('theme/wp-content/uploads/2016/05/client-5.png')}}"
                                                                           class="attachment-full" alt=""/></div>
                                                 <div class="partner"><img width="150" height="100"
-                                                                          src="http://www.doublebattery.com/wp-content/uploads/2016/05/client-6.png"
+                                                                          src="{{ URL::asset('theme/wp-content/uploads/2016/05/client-6.png') }}"
                                                                           class="attachment-full" alt=""/></div>
                                             </div>
                                         </div>
@@ -1490,7 +1354,7 @@
                                 <figure class="wpb_wrapper vc_figure">
                                     <a href="?" target="_self" class="vc_single_image-wrapper   vc_box_border_grey"><img
                                                 width="100" height="54"
-                                                src="http://www.doublebattery.com/wp-content/uploads/2018/01/double-batter-logo-e1516960009736.png"
+                                                src="{{ URL::asset('theme/wp-content/uploads/2018/01/double-batter-logo-e1516960009736.png') }}"
                                                 class="vc_single_image-img attachment-full" alt=""/></a>
                                 </figure>
                             </div>
@@ -1539,7 +1403,7 @@
                                 <figure class="wpb_wrapper vc_figure">
                                     <div class="vc_single_image-wrapper   vc_box_border_grey"><img width="255"
                                                                                                    height="22"
-                                                                                                   src="http://www.doublebattery.com/wp-content/uploads/2016/12/payment.png"
+                                                                                                   src="{{ URL::asset('theme/wp-content/uploads/2016/12/payment.png')}}"
                                                                                                    class="vc_single_image-img attachment-full"
                                                                                                    alt=""/></div>
                                 </figure>
@@ -1661,7 +1525,7 @@
     <p>Sorry, this product is unavailable. Please choose a different combination.</p>
 </script>
 <link rel='stylesheet' id='animate-css-css'
-      href='http://www.doublebattery.com/wp-content/plugins/js_composer/assets/lib/bower/animate-css/animate.min.css?ver=5.4.5'
+      href="{{ URL::asset('theme/wp-content/plugins/js_composer/assets/lib/bower/animate-css/animate.min.css')}}"
       type='text/css' media='all'/>
 <script type='text/javascript'>
     /* <![CDATA[ */
@@ -1674,11 +1538,11 @@
     /* ]]> */
 </script>
 <script type='text/javascript'
-        src='http://www.doublebattery.com/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.0.1'></script>
+        src="{{ URL::asset('theme/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.0.1')}}"></script>
 <script type='text/javascript'
-        src='http://www.doublebattery.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.70'></script>
+        src="{{ URL::asset('theme/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js')}}"></script>
 <script type='text/javascript'
-        src='http://www.doublebattery.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4'></script>
+        src="{{ URL::asset('theme/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js')}}"></script>
 <script type='text/javascript'>
     /* <![CDATA[ */
     var woocommerce_params = {
@@ -1688,7 +1552,7 @@
     /* ]]> */
 </script>
 <script type='text/javascript'
-        src='http://www.doublebattery.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=3.3.3'></script>
+        src="{{ URL::asset('theme/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js') }}"></script>
 <script type='text/javascript'>
     /* <![CDATA[ */
     var wc_cart_fragments_params = {
@@ -1700,7 +1564,7 @@
     /* ]]> */
 </script>
 <script type='text/javascript'
-        src='http://www.doublebattery.com/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=3.3.3'></script>
+        src="{{ URL::asset('theme/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js')}}"></script>
 <script type='text/javascript'>
     /* <![CDATA[ */
     var yith_woocompare = {
@@ -1720,13 +1584,13 @@
     /* ]]> */
 </script>
 <script type='text/javascript'
-        src='http://www.doublebattery.com/wp-content/plugins/yith-woocommerce-compare/assets/js/woocompare.min.js?ver=2.3.0'></script>
+        src="{{ URL::asset('theme/wp-content/plugins/yith-woocommerce-compare/assets/js/woocompare.min.js')}}"></script>
 <script type='text/javascript'
-        src='http://www.doublebattery.com/wp-content/plugins/yith-woocommerce-compare/assets/js/jquery.colorbox-min.js?ver=1.4.21'></script>
+        src="{{ URL::asset('theme/wp-content/plugins/yith-woocommerce-compare/assets/js/jquery.colorbox-min.js')}}"></script>
 <script type='text/javascript'
-        src='http://www.doublebattery.com/wp-content/plugins/woocommerce/assets/js/prettyPhoto/jquery.prettyPhoto.min.js?ver=3.1.6'></script>
+        src="{{ URL::asset('theme/wp-content/plugins/woocommerce/assets/js/prettyPhoto/jquery.prettyPhoto.min.js') }}"></script>
 <script type='text/javascript'
-        src='http://www.doublebattery.com/wp-content/plugins/yith-woocommerce-wishlist/assets/js/jquery.selectBox.min.js?ver=1.2.0'></script>
+        src="{{ URL::asset('theme/wp-content/plugins/yith-woocommerce-wishlist/assets/js/jquery.selectBox.min.js')}}"></script>
 <script type='text/javascript'>
     /* <![CDATA[ */
     var yith_wcwl_l10n = {
@@ -1751,27 +1615,27 @@
     /* ]]> */
 </script>
 <script type='text/javascript'
-        src='http://www.doublebattery.com/wp-content/plugins/yith-woocommerce-wishlist/assets/js/jquery.yith-wcwl.js?ver=2.2.1'></script>
+        src="{{ URL::asset('theme/wp-content/plugins/yith-woocommerce-wishlist/assets/js/jquery.yith-wcwl.js')}}"></script>
 <script type='text/javascript'
-        src='http://www.doublebattery.com/wp-content/themes/fatotheme/assets/lib/perfect-scrollbar/js/perfect-scrollbar.jquery.min.js?ver=4.9.3'></script>
+        src="{{ URL::asset('theme/wp-content/themes/fatotheme/assets/lib/perfect-scrollbar/js/perfect-scrollbar.jquery.min.js')}}"></script>
 <script type='text/javascript'
-        src='http://www.doublebattery.com/wp-content/themes/fatotheme/assets/lib/bootstrap/js/bootstrap.min.js?ver=4.9.3'></script>
+        src="{{ URL::asset('theme/wp-content/themes/fatotheme/assets/lib/bootstrap/js/bootstrap.min.js')}}"></script>
 <script type='text/javascript'
-        src='http://www.doublebattery.com/wp-content/themes/fatotheme/assets/lib/jquery-tipr/jquery.tipr.js?ver=4.9.3'></script>
+        src="{{ URL::asset('theme/wp-content/themes/fatotheme/assets/lib/jquery-tipr/jquery.tipr.js')}}"></script>
 <script type='text/javascript'
-        src='http://www.doublebattery.com/wp-content/themes/fatotheme/assets/lib/owl-carousel/owl.carousel.min.js?ver=4.9.3'></script>
+        src="{{ URL::asset('theme/wp-content/themes/fatotheme/assets/lib/owl-carousel/owl.carousel.min.js')}}"></script>
 <script type='text/javascript'
-        src='http://www.doublebattery.com/wp-content/themes/fatotheme/assets/js/jquery.wow.min.js?ver=4.9.3'></script>
+        src="{{ URL::asset('theme/wp-content/themes/fatotheme/assets/js/jquery.wow.min.js')}}"></script>
 <script type='text/javascript'
-        src='http://www.doublebattery.com/wp-content/plugins/woocommerce/assets/js/jquery-cookie/jquery.cookie.min.js?ver=1.4.1'></script>
+        src="{{ URL::asset('theme/wp-content/plugins/woocommerce/assets/js/jquery-cookie/jquery.cookie.min.js')}}"></script>
 <script type='text/javascript'
-        src='http://www.doublebattery.com/wp-content/themes/fatotheme/assets/js/theme.js?ver=4.9.3'></script>
+        src="{{ URL::asset('theme/wp-content/themes/fatotheme/assets/js/theme.js')}}"></script>
 <script type='text/javascript'
-        src='http://www.doublebattery.com/wp-content/plugins/variation-swatches-for-woocommerce/assets/js/frontend.js?ver=20160615'></script>
+        src="{{ URL::asset('theme/wp-content/plugins/variation-swatches-for-woocommerce/assets/js/frontend.js?')}}"></script>
 <script type='text/javascript'
-        src='http://www.doublebattery.com/wp-content/plugins/color-or-image-variation-swatches-for-woocommerce/assets/dist/frontend/js/alg-wc-civs.min.js?ver=180126-113747'></script>
-<script type='text/javascript' src='http://www.doublebattery.com/wp-includes/js/wp-embed.min.js?ver=4.9.3'></script>
-<script type='text/javascript' src='http://www.doublebattery.com/wp-includes/js/underscore.min.js?ver=1.8.3'></script>
+        src="{{ URL::asset('theme/wp-content/plugins/color-or-image-variation-swatches-for-woocommerce/assets/dist/frontend/js/alg-wc-civs.min.js')}}"></script>
+<script type='text/javascript' src="{{ URL::asset('theme/wp-includes/js/wp-embed.min.js')}}"></script>
+<script type='text/javascript' src="{{ URL::asset('theme/wp-includes/js/underscore.min.js')}}></script>
 <script type='text/javascript'>
     /* <![CDATA[ */
     var _wpUtilSettings = {"ajax": {"url": "\/wp-admin\/admin-ajax.php"}};
@@ -1789,11 +1653,11 @@
     /* ]]> */
 </script>
 <script type='text/javascript'
-        src='http://www.doublebattery.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart-variation.min.js?ver=3.3.3'></script>
+        src="{{ URL::asset('theme/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart-variation.min.js') }}"></script>
 <script type='text/javascript'
-        src='http://www.doublebattery.com/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=5.4.5'></script>
+        src="{{ URL::asset('theme/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js')}}"></script>
 <script type='text/javascript'
-        src='http://www.doublebattery.com/wp-content/plugins/js_composer/assets/lib/waypoints/waypoints.min.js?ver=5.4.5'></script>
+        src="{{ URL::asset('theme/wp-content/plugins/js_composer/assets/lib/waypoints/waypoints.min.js')}}"></script>
 <script type='text/javascript'>
     /* <![CDATA[ */
     var wezmenu_meta = {"setting-responsive-breakpoint": ""};
@@ -1801,6 +1665,6 @@
     /* ]]> */
 </script>
 <script type='text/javascript'
-        src='http://www.doublebattery.com/wp-content/plugins/wezmenu/assets/js/app.min.js?ver=1.0.0'></script>
+        src="{{ URL::asset('theme/wp-content/plugins/wezmenu/assets/js/app.min.js')}}"></script>
 </body>
 </html>

@@ -1,0 +1,170 @@
+/**
+ * --------------------------------------------------------------------------------
+ * Sidebar Styles
+ * --------------------------------------------------------------------------------
+ */
+.sidebar{
+    .widget{
+        .widget-title{
+            border: none;
+            color: #333333;
+            text-transform: uppercase;
+            margin-bottom: 5px;
+            margin-top: 0;
+        }
+        .product.widget-product {
+            .product-block{
+                background-color: transparent;
+                display: flex;
+
+                .image{
+                    background-color: #fff;
+                    margin-bottom: 0;
+                }
+                .product-deal, .onsale, .onnew{
+                    display: none;
+                }
+            }
+        }
+        ul{
+            padding: 0;
+            margin: 0;
+
+            li{
+                list-style: none;
+                position: relative;
+                padding-left: 10px;
+
+                &:before{
+                    content: "\f10c";
+                    font-family: "FontAwesome";
+                    font-size: 10px;
+                    position: absolute;
+                    left: 0;
+                    top: 2px;
+                }
+                
+                +li{
+                    margin-top: 15px;
+                }
+
+                &:hover:before{
+                    content: "\f111";
+                    color: @primarycolor;
+                }
+
+                a{
+                    color: #666666;
+                    position: relative;
+                    padding-left: 5px;
+
+                    &:hover{
+                        color: @primarycolor;
+                    }
+                }
+            }
+            &.product-categories{
+                li{
+                    ul{
+                        padding-left: 15px;
+                    }
+                    &.cat-parent{
+                        padding-bottom: 0;
+                    }
+                }
+            }
+            &.connect-us{
+                li a{
+                    color: #ddd;
+
+                    &:hover{padding-left: 0;}
+                }
+            }
+        }
+        &.widget_recent_comments{
+            ul li{ 
+                
+                padding-left: 25px;
+
+                &:before{
+                    content: "\f0e5";
+                    font-size: 16px;
+                    top: -2px;
+                }
+            }
+        }
+        &.widget-product-upsell .carousel .next-prev-buttons{
+            top: -62px;
+        }
+        &.widget_product_categories li,
+        &.widget_layered_nav li,
+        &.widget_layered_nav_filters li{
+
+            font-size: 13px;
+
+            &:hover >a{
+                color: @primarycolor;
+            }
+            &:hover > ul {
+                color: @text-color;
+            }
+            .show_count, span.count {
+                color: #999;
+            }
+        }
+
+        &.widget_product_categories li + li,
+        &.widget_layered_nav li + li,
+        &.widget_layered_nav_filters li + li{
+            border-top: none;
+        }
+
+        &.widget_product_categories a,
+        &.widget_layered_nav a,
+        &.widget_layered_nav_filters a{
+            span.count{
+                color: #999;
+            }
+        }
+
+        &.widget_product_categories li.current-cat > a,
+        &.widget_product_categories li.current-cat-parent > a,
+        &.widget_product_categories li:hover > a,
+        &.widget_product_categories li:active > a,
+        &.widget_product_categories li:focus > a,
+        &.widget_layered_nav li.chosen > a,
+        &.widget_layered_nav li:hover > a,
+        &.widget_layered_nav li:active > a,
+        &.widget_layered_nav li:focus > a,
+        &.widget_layered_nav_filters li.chosen > a,
+        &.widget_layered_nav_filters li:hover > a,
+        &.widget_layered_nav_filters li:focus > a,
+        &.widget_layered_nav_filters li:active > a{
+            color: @primarycolor;
+        }
+        &.widget_sp_image{
+            .widget_sp_image-image-link{
+                display: block;
+                position: relative;
+                &:before {
+                    content: "";
+                    position: absolute;
+                    top: 0;
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
+                    margin: 0;
+                    .rgba-bg-color(@primarycolor,0.3);
+                    .opacity(0);
+                    .transition();
+                    z-index: 1;
+                }
+                &:hover{
+                    &:before{
+                        .opacity(1);
+                    }
+                }
+            }
+        }
+    }
+}
